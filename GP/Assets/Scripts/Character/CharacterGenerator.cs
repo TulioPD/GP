@@ -4,20 +4,32 @@ using System.Collections.Generic;
 using TMPro;
 
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterGenerator : MonoBehaviour
 {
     public static Unity.Mathematics.Random random;
     public List<Character> characterList;
-    //Awake method to initialize the random number generator and generate 4 characters
-    private void Awake()
+    
+    //Check if a GameObject called "Character Display" exists in the scene and if it does not, create it. The created GameObject should have a Canvas component and a CanvasScaler component
+    private void Start()
+    {
+        CheckForDisplay();
+        //Initialize characterList and add the 4 characters to it using the GenerateCharacters method
+        //characterList = GenerateCharacters(4);
+        //SpawnCharacters(4);
+    }
+
+    void CheckForDisplay()
     {
         CharacterGenerator.random.InitState();
-        //GenerateCharacters(4);
-        //Initialize characterList and add the 4 characters to it using the GenerateCharacters method
-        characterList = GenerateCharacters(4);
-        SpawnCharacters(4);
-
+        if (GameObject.Find("Character Display") == null)
+        {
+            GameObject characterDisplay = new GameObject();
+            characterDisplay.name = "Character Display";
+            characterDisplay.AddComponent<Canvas>();
+            characterDisplay.AddComponent<CanvasScaler>();
+        }
     }
 
     private void SpawnCharacters(int charactersToSpawn)
