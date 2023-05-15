@@ -1,6 +1,6 @@
 # Procedural Generation Learning Project
 
-This is a learning project that aims to implement procedural generation algorithms in a game context. The project currently includes a basic character generator as a starting point, but the ultimate goal is to create a game that relies heavily on procedural generation for various aspects such as level design, item generation, and enemy generation.
+This is a learning project that aims to implement procedural generation algorithms in a game context. The project currently includes a basic character generator as a starting point, but the ultimate goal is to create a sandbox game that relies heavily on procedural generation for various aspects such as level design, item generation, and enemy generation.
 
 ## License and Use
 
