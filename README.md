@@ -2,6 +2,10 @@
 
 This is a learning project that aims to implement procedural generation algorithms in a game context. The project currently includes a basic character generator as a starting point, but the ultimate goal is to create a game that relies heavily on procedural generation for various aspects such as level design, item generation, and enemy generation.
 
+## License and Use
+
+You are free to use, modify, and distribute this code for any purpose. However, please note that some of the assets included in this project may be subject to licensing restrictions. As such, it is your responsibility to ensure that you have the proper permissions and licenses for any assets used in your own projects based on this code.
+
 ## Features
 
 - Random generation of character stats
