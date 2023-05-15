@@ -12,22 +12,22 @@ You are free to use, modify, and distribute this code for any purpose. However, 
 
 ## TODO
 
-- Implementation of machine learning algorithms for improved character generation
-- Integration with a game engine to create a full game experience
-- Ability for players to customize character appearances
-- Ability to add new hair and body images to the game
-- Consistent animations for all hair and body combinations
 - User interface for displaying generated characters
+- Ability for players to customize character appearances
+- Consistent animations for all hair and body combinations
+- Integration with a game engine to create a full game experience
 - Implementation of Procedural Generation algorithms to create a 2D map representation
-- Procedural Generation Algorithm to take the coordinates of the previously created 2D map and create another 2D map, with a platformer view, based on the first map terrain and features. The area created might be stored under some circunstances to easylly access to this scene (building)
+- Procedural Generation Algorithm to take the coordinates of the previously created 2D map and create another 2D map, with a platformer view, based on the first map terrain and features. The area created might be stored under some circumstances to easily access this scene (building)
 - Terrain modification
-- Politics
-- Factions
 - Weapon/Skill system
 - Base building / colony management
-- Job automatization system
+- Politics
+- Factions
 - Automatic "turn combat system" to uncontrolled characters
-- Character personalities and any class that inherits from Character in the future affects not also their random stat seed but also their behaviour and interactions with the world (unless directly controlled by player(maybe just some things ant the rest are still unaffected by direct player actions on the exact same moment))
+- Job automation system
+- Character personalities and any class that inherits from Character in the future affects not only their random stat seed but also their behavior and interactions with the world (unless directly controlled by the player(maybe just some things and the rest are still unaffected by direct player actions at the exact same moment))
+- Ability to add new hair and body images to the game
+- Implementation of machine learning algorithms for improved character generation
 
 ## Installation
 
