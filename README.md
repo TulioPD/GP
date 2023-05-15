@@ -6,6 +6,7 @@ This is a learning project that aims to implement procedural generation algorith
 ## Features
 
 - Random generation of character stats
+- Display of characters as a Text representation with their current stats
 
 ## TODO
 
