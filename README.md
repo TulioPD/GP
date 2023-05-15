@@ -21,6 +21,9 @@ This is a learning project that aims to implement procedural generation algorith
 - Factions
 - Weapon/Skill system
 - Base building / colony management
+- Job automatization system
+- Automatic "turn combat system" to uncontrolled characters
+- Character personalities and any class that inherits from Character in the future affects not also their random stat seed but also their behaviour and interactions with the world (unless directly controlled by player(maybe just some things ant the rest are still unaffected by direct player actions on the exact same moment))
 
 ## Installation
 
