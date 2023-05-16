@@ -15,7 +15,7 @@ You are free to use, modify, and distribute this code for any purpose. However, 
 - User interface for displaying generated characters
 - Ability for players to customize character appearances
 - Consistent animations for all hair and body combinations
-- Integration with a game engine to create a full game experience
+- Integration with Unity game engine
 - Implementation of Procedural Generation algorithms to create a 2D map representation
 - Procedural Generation Algorithm to take the coordinates of the previously created 2D map and create another 2D map, with a platformer view, based on the first map terrain and features. The area created might be stored under some circumstances to easily access this scene (building)
 - Terrain modification
