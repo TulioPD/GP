@@ -1,0 +1,4 @@
+Stats: main stats that affect multiple substats, it is given by default when a character is created and can not be either enhanced or reduced
+	
+
+Substats: can be changed and they directly affect how optimal a character is doing his job. substats raise when used and drop when not used for a long time. Main stats limit the min and max of those substats
