@@ -3,15 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SeedGenerator : MonoBehaviour
+public static class SeedGenerator
 {
     public static Seed GenerateRandomSeed()
     {
         System.Random random = new System.Random();
 
         TalentType randomType = (TalentType)random.Next(2);
+        Debug.Log(randomType);
         Talent randomFirstTalent = GetRandomTalent(randomType);
+        Debug.Log(randomFirstTalent);
         Talent randomSecondTalent = GetRandomOppositeTalent(randomType, randomFirstTalent);
+        Debug.Log(randomSecondTalent);
 
         return new Seed(randomType, randomFirstTalent, randomSecondTalent);
     }

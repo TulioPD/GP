@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Seed seed = SeedGenerator.GenerateRandomSeed();    
+        Character characterTest = new Character();
     }
 
     // Update is called once per frame

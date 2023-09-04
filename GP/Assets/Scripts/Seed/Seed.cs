@@ -61,6 +61,7 @@ public class Seed
         this.SeedName = GetSeedName(randomType, randomFirstTalent, randomSecondTalent);
     }
 
+    //Not used
     private SeedName GetSeedName(TalentType randomType, Talent randomFirstTalent, Talent randomSecondTalent)
     {
         switch (randomType)

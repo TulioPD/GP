@@ -17,4 +17,20 @@ public class StatChart
     public int criticalChance;
     public int criticalDamage;
     public int criticalDodge;
+
+    public StatChart()
+    {
+        this.strength = 1;
+        this.stamina = 1;
+        this.mind = 1;
+        this.agility = 1;
+        this.dexterity = 1;
+        this.perception = 1;
+        this.health = 100;
+        this.dodge = 0;
+        this.accuracy = 0;
+        this.criticalChance = 0;
+        this.criticalDamage = 0;
+        this.criticalDodge = 0;
+    }
 }

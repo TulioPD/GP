@@ -15,6 +15,18 @@ public class Character
 
     private int Tier { get; set; }
 
+    public Character()
+    {
+        this.Name = "Character test!";
+        this.Seed = SeedGenerator.GenerateRandomSeed();
+        this.Stats = new StatChart();
+        this.Level = 1;
+        this.Tier = 1;
+        Debug.Log("Character created!");
+        //Debug.Log("Seed:");
+        //this.Seed.DebugPrintSeed();
+    }
+
     public Character(string Name,Seed seed, StatChart stats, int level, int tier)
     {
         this.Name = Name;

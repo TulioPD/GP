@@ -2,20 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterGenerator
+public static class CharacterGenerator
 {
-    Character Character { get; set; }
-    Seed Seed { get; set; }
-
-    public CharacterGenerator(Character character, Seed seed)
+    //unused class. Might use it for character generation later or character edit.
+    public static Seed GenerateSeed()
     {
-        Character = character;
-        Seed = seed;
+        return SeedGenerator.GenerateRandomSeed();
+        
     }
 
-    public Character GenerateCharacter ()
+    public static Character GenerateCharacter ()
     {
-        Character.Name = "Test Name!";
-        return Character;
+        Character newCharacter = new Character("Character test!", GenerateSeed(), new StatChart(), 1, 1 );
+        return newCharacter;
     }
 }
