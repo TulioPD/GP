@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Character characterTest = new Character();
+        //Character characterTest = new Character();
     }
 
     // Update is called once per frame
